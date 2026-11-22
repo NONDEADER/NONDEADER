@@ -1,13 +1,13 @@
 <div align="center">
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg?v=4" alt="hey, I'm Ayush [nondeader] 👾" height="42" />
+  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg?v=5" alt="hey, I'm Ayush [nondeader] 👾" height="42" />
 </a>
 
 <br/>
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=58A6FF&center=true&vCenter=true&width=450&height=32&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=00E5A3&center=true&vCenter=true&width=450&height=32&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -22,12 +22,12 @@ I build small, fast apps that solve my own problems and hopefully don't break yo
 
 ### 🛠 Things I built (and actually use)
 
-#### [UsageX ↗](https://github.com/NONDEADER/UsageX) &nbsp;<a href="https://github.com/NONDEADER/UsageX"><img src="https://img.shields.io/github/stars/NONDEADER/UsageX?style=flat-square&color=21262d&labelColor=161b22&logo=github&logoColor=white" height="22" alt="UsageX Stars" /></a> &nbsp;<img src="https://img.shields.io/badge/extension-local--first-238636?style=flat-square" height="22" alt="Status" />
+#### [UsageX ↗](https://github.com/NONDEADER/UsageX) &nbsp;<a href="https://github.com/NONDEADER/UsageX"><img src="https://img.shields.io/github/stars/NONDEADER/UsageX?style=flat-square&color=21262d&labelColor=161b22&logo=github&logoColor=00E5A3" height="22" alt="UsageX Stars" /></a> &nbsp;<img src="https://img.shields.io/badge/extension-local--first-00E5A3?style=flat-square&labelColor=161b22" height="22" alt="Status" />
 Built this because Claude kept eating my rate limits and I had no clue where my tokens went. Tracks session burn in real time, runs 100% locally in your browser.
 
 <br/>
 
-#### [AcoustiQ ↗](https://github.com/Clash-Projects/acoustiq) &nbsp;<a href="https://github.com/Clash-Projects/acoustiq"><img src="https://img.shields.io/github/stars/Clash-Projects/acoustiq?style=flat-square&color=21262d&labelColor=161b22&logo=github&logoColor=white" height="22" alt="AcoustiQ Stars" /></a> &nbsp;<img src="https://img.shields.io/badge/suite-v1.0.0-238636?style=flat-square" height="22" alt="Status" />
+#### [AcoustiQ ↗](https://github.com/Clash-Projects/acoustiq) &nbsp;<a href="https://github.com/Clash-Projects/acoustiq"><img src="https://img.shields.io/github/stars/Clash-Projects/acoustiq?style=flat-square&color=21262d&labelColor=161b22&logo=github&logoColor=00E5A3" height="22" alt="AcoustiQ Stars" /></a> &nbsp;<img src="https://img.shields.io/badge/suite-v1.0.0-00E5A3?style=flat-square&labelColor=161b22" height="22" alt="Status" />
 Turns out half the "lossless 24-bit studio FLACs" on the internet are just 128kbps MP3s wearing a trench coat. Built a forensic suite with spectral roll-off analysis to catch fake audio imposters red-handed.
 
 ---

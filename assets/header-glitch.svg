@@ -9,10 +9,10 @@
     }
 
     .accent-tag {
-      fill: #58a6ff;
+      fill: #00E5A3;
     }
 
-    /* Periodic Micro-Glitch */
+    /* Periodic Micro-Glitch with Cyber Mint Phosphor Glow */
     .glitch-text {
       animation: microGlitch 5s ease-in-out infinite;
       transform-origin: center;
@@ -25,20 +25,20 @@
       }
       89% {
         transform: translate(-1.8px, 0.9px);
-        filter: drop-shadow(1.8px 0px 0px #bc8cff) drop-shadow(-1.8px 0px 0px #39d353);
+        filter: drop-shadow(1.8px 0px 0px #00E5A3) drop-shadow(-1.8px 0px 0px #39d353);
       }
       91% {
         transform: translate(1.8px, -0.9px);
-        filter: drop-shadow(-1.8px 0px 0px #58a6ff) drop-shadow(1.8px 0px 0px #ff7b72);
+        filter: drop-shadow(-1.8px 0px 0px #00E5A3) drop-shadow(1.8px 0px 0px #7ee787);
       }
       93% {
         transform: translate(-1px, 0.5px);
-        filter: drop-shadow(1.2px 0px 0px #39d353);
+        filter: drop-shadow(1.2px 0px 0px #00E5A3);
       }
     }
   </style>
 
-  <!-- Mobile-optimized tight viewBox, large font (25px) -->
+  <!-- Cyber Mint Unified Header -->
   <g class="glitch-text">
     <text x="50%" y="28" text-anchor="middle" class="font-mono">
       hey, I'm Ayush <tspan class="accent-tag">[nondeader]</tspan> 👾
