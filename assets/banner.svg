@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 210" width="100%" height="100%">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .terminal-bg {
+      fill: url(#bgGrad);
+      stroke: #30363d;
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    
+    .font-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+
+    /* Floating mascot animation */
+    .mascot-group {
+      animation: float 4s ease-in-out infinite;
+      transform-origin: 90px 110px;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+
+    /* Eye glitch / blink animation */
+    .eye-open {
+      animation: eyeBlink 5s infinite;
+    }
+    .eye-shut {
+      animation: eyeBlinkOpposite 5s infinite;
+    }
+    @keyframes eyeBlink {
+      0%, 92%, 100% { opacity: 1; }
+      94%, 98% { opacity: 0; }
+    }
+    @keyframes eyeBlinkOpposite {
+      0%, 92%, 100% { opacity: 0; }
+      94%, 98% { opacity: 1; }
+    }
+
+    /* Audio Equalizer animation */
+    .eq-bar-1 { animation: eqAnim1 1.2s ease-in-out infinite alternate; }
+    .eq-bar-2 { animation: eqAnim2 0.8s ease-in-out infinite alternate; }
+    .eq-bar-3 { animation: eqAnim3 1.1s ease-in-out infinite alternate; }
+    .eq-bar-4 { animation: eqAnim4 0.9s ease-in-out infinite alternate; }
+    .eq-bar-5 { animation: eqAnim5 1.3s ease-in-out infinite alternate; }
+    
+    @keyframes eqAnim1 { 0% { height: 8px; y: 152px; } 100% { height: 38px; y: 122px; } }
+    @keyframes eqAnim2 { 0% { height: 32px; y: 128px; } 100% { height: 12px; y: 148px; } }
+    @keyframes eqAnim3 { 0% { height: 16px; y: 144px; } 100% { height: 44px; y: 116px; } }
+    @keyframes eqAnim4 { 0% { height: 40px; y: 120px; } 100% { height: 18px; y: 142px; } }
+    @keyframes eqAnim5 { 0% { height: 10px; y: 150px; } 100% { height: 30px; y: 130px; } }
+
+    /* Cursor blink */
+    .cursor {
+      animation: cursorBlink 1s infinite steps(1);
+    }
+    @keyframes cursorBlink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+
+    /* Subtitle typewriter step animation */
+    .type-line1 {
+      animation: textSwitch1 12s infinite;
+    }
+    .type-line2 {
+      animation: textSwitch2 12s infinite;
+    }
+    .type-line3 {
+      animation: textSwitch3 12s infinite;
+    }
+    @keyframes textSwitch1 {
+      0%, 30% { opacity: 1; }
+      33%, 100% { opacity: 0; }
+    }
+    @keyframes textSwitch2 {
+      0%, 33% { opacity: 0; }
+      36%, 63% { opacity: 1; }
+      66%, 100% { opacity: 0; }
+    }
+    @keyframes textSwitch3 {
+      0%, 66% { opacity: 0; }
+      69%, 97% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect class="terminal-bg" x="2" y="2" width="836" height="206" />
+
+  <!-- Window Header Bar -->
+  <rect x="2" y="2" width="836" height="34" rx="12" fill="#161b22" />
+  <rect x="2" y="24" width="836" height="12" fill="#161b22" />
+  <line x1="2" y1="36" x2="838" y2="36" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Window Control Buttons (macOS / Retro styled) -->
+  <circle cx="24" cy="19" r="5.5" fill="#ff5f56" />
+  <circle cx="42" cy="19" r="5.5" fill="#ffbd2e" />
+  <circle cx="60" cy="19" r="5.5" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="420" y="23" text-anchor="middle" fill="#7d8590" class="font-mono" font-size="12" font-weight="500">nondeader@workspace: ~</text>
+
+  <!-- Status Chip (Top Right) -->
+  <rect x="730" y="11" width="86" height="18" rx="9" fill="#238636" fill-opacity="0.2" stroke="#2ea043" stroke-width="1"/>
+  <circle cx="742" cy="20" r="3.5" fill="#39d353" />
+  <text x="752" y="23.5" fill="#39d353" class="font-mono" font-size="10" font-weight="600">ACTIVE</text>
+
+  <!-- ==================== MASCOT (PIXEL FACE) ==================== -->
+  <g class="mascot-group" shape-rendering="crispEdges">
+    <!-- White Pixel Head Background (14x14 pixel circle approx) -->
+    <rect x="52" y="60" width="84" height="84" fill="#ffffff" rx="42" />
+    <rect x="48" y="72" width="92" height="60" fill="#ffffff" />
+    <rect x="60" y="52" width="68" height="100" fill="#ffffff" />
+
+    <!-- Left Eye 'X' (Open) -->
+    <g class="eye-open" fill="#0d1117">
+      <rect x="68" y="80" width="6" height="6" />
+      <rect x="80" y="80" width="6" height="6" />
+      <rect x="74" y="86" width="6" height="6" />
+      <rect x="68" y="92" width="6" height="6" />
+      <rect x="80" y="92" width="6" height="6" />
+    </g>
+
+    <!-- Right Eye 'X' (Open) -->
+    <g class="eye-open" fill="#0d1117">
+      <rect x="102" y="80" width="6" height="6" />
+      <rect x="114" y="80" width="6" height="6" />
+      <rect x="108" y="86" width="6" height="6" />
+      <rect x="102" y="92" width="6" height="6" />
+      <rect x="114" y="92" width="6" height="6" />
+    </g>
+
+    <!-- Blinking Eyes '-' (Shut) -->
+    <g class="eye-shut" fill="#0d1117">
+      <rect x="68" y="86" width="18" height="6" />
+      <rect x="102" y="86" width="18" height="6" />
+    </g>
+
+    <!-- Pixel Smile -->
+    <g fill="#0d1117">
+      <rect x="64" y="108" width="6" height="8" />
+      <rect x="70" y="116" width="6" height="8" />
+      <rect x="76" y="124" width="36" height="8" />
+      <rect x="112" y="116" width="6" height="8" />
+      <rect x="118" y="108" width="6" height="8" />
+    </g>
+  </g>
+
+  <!-- ==================== CENTER CONTENT ==================== -->
+  <!-- Prompt line -->
+  <g transform="translate(175, 78)">
+    <text x="0" y="0" fill="#7d8590" class="font-mono" font-size="13">
+      <tspan fill="#39d353">nondeader</tspan><tspan fill="#58a6ff">@dev</tspan><tspan fill="#7d8590">:</tspan><tspan fill="#d29922">~</tspan><tspan fill="#7d8590">$ whoami</tspan>
+    </text>
+
+    <!-- Name / Handle -->
+    <text x="0" y="38" fill="#ffffff" class="font-sans" font-size="30" font-weight="800" letter-spacing="-0.5">
+      NONDEADER
+    </text>
+
+    <!-- Animated Dynamic Subtitle -->
+    <g transform="translate(0, 68)">
+      <text class="font-mono type-line1" x="0" y="0" fill="#58a6ff" font-size="14" font-weight="500">
+        &gt; Client-side tooling &amp; audio experiments
+      </text>
+      <text class="font-mono type-line2" x="0" y="0" fill="#bc8cff" font-size="14" font-weight="500">
+        &gt; Author of UsageX &amp; AcoustiQ
+      </text>
+      <text class="font-mono type-line3" x="0" y="0" fill="#39d353" font-size="14" font-weight="500">
+        &gt; Building things that work (mostly)...
+      </text>
+      <!-- Blinking Terminal Cursor -->
+      <rect class="cursor" x="330" y="-12" width="8" height="16" fill="#e6edf3" />
+    </g>
+
+    <!-- Quick Meta Chips -->
+    <g transform="translate(0, 96)">
+      <text fill="#7d8590" class="font-mono" font-size="11">
+        ORG: <tspan fill="#e6edf3" font-weight="600">@Clash-Projects</tspan> &nbsp;•&nbsp;
+        LOC: <tspan fill="#e6edf3">Earth</tspan> &nbsp;•&nbsp;
+        STACK: <tspan fill="#e6edf3">Flutter / JS / Linux</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- ==================== AUDIO EQUALIZER (AcoustiQ visualizer) ==================== -->
+  <g transform="translate(710, 0)">
+    <!-- Spectrum Bars -->
+    <rect class="eq-bar-1" x="0" width="6" rx="3" fill="#58a6ff" fill-opacity="0.8" />
+    <rect class="eq-bar-2" x="12" width="6" rx="3" fill="#bc8cff" fill-opacity="0.8" />
+    <rect class="eq-bar-3" x="24" width="6" rx="3" fill="#39d353" fill-opacity="0.8" />
+    <rect class="eq-bar-4" x="36" width="6" rx="3" fill="#58a6ff" fill-opacity="0.8" />
+    <rect class="eq-bar-5" x="48" width="6" rx="3" fill="#bc8cff" fill-opacity="0.8" />
+    <text x="27" y="174" text-anchor="middle" fill="#7d8590" class="font-mono" font-size="9" letter-spacing="1">AUDIO</text>
+  </g>
+</svg>
