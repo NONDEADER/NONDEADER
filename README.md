@@ -25,8 +25,8 @@ I build small, fast apps that solve my own problems and hopefully don't break yo
 - **[UsageX ↗](https://github.com/NONDEADER/UsageX)** `extension`  
   Built this because Claude kept eating my rate limits and I had no clue where my tokens went. Tracks session burn in real time, runs 100% locally in your browser.
 
-- **[AcoustiQ ↗](https://github.com/Clash-Projects/acoustic)** `flutter · android / desktop`  
-  A music player because I wanted my audio offline and streaming without 50 ads or bloated UIs. Clean dark client for Android, Desktop & Linux.
+- **[AcoustiQ ↗](https://github.com/Clash-Projects/acoustic)** `audio forensics · android & linux`  
+  Turns out half the "lossless 24-bit studio FLACs" on the internet are just 128kbps MP3s wearing a trench coat. Built a forensic suite with spectral roll-off analysis to catch fake audio imposters red-handed.
 
 ---
 
