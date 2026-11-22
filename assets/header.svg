@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 45" width="100%" height="45">
+  <defs>
+    <!-- Clip path to simulate typing revelation -->
+    <clipPath id="typingClip">
+      <rect x="0" y="0" width="0" height="45">
+        <animate 
+          attributeName="width" 
+          values="0; 520; 520; 0" 
+          keyTimes="0; 0.28; 0.92; 1" 
+          dur="8s" 
+          repeatCount="indefinite" 
+        />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 20px;
+      font-weight: 600;
+      fill: #e6edf3;
+    }
+
+    .accent-tag {
+      fill: #58a6ff;
+    }
+
+    /* Glitch animation for text */
+    .glitch-text {
+      animation: glitch 8s infinite;
+    }
+
+    @keyframes glitch {
+      0%, 42%, 48%, 70%, 76%, 100% {
+        transform: translate(0, 0);
+        filter: none;
+      }
+      43% {
+        transform: translate(-2px, 1px);
+        filter: drop-shadow(2px 0px 0px #bc8cff) drop-shadow(-2px 0px 0px #39d353);
+      }
+      45% {
+        transform: translate(2px, -1px);
+        filter: drop-shadow(-2px 0px 0px #58a6ff) drop-shadow(2px 0px 0px #ff7b72);
+      }
+      47% {
+        transform: translate(0, 0);
+        filter: none;
+      }
+      72% {
+        transform: translate(1.5px, 0.5px);
+        filter: drop-shadow(-1.5px 0px 0px #bc8cff) drop-shadow(1.5px 0px 0px #58a6ff);
+      }
+      74% {
+        transform: translate(-1px, -0.5px);
+        filter: drop-shadow(1.5px 0px 0px #39d353);
+      }
+    }
+
+    /* Blinking Cursor animation */
+    .cursor-line {
+      animation: cursorBlink 0.8s infinite;
+    }
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Centered Content -->
+  <g transform="translate(10, 0)">
+    <!-- Clipped Animated Typing Group -->
+    <g clip-path="url(#typingClip)">
+      <g class="glitch-text">
+        <text x="10" y="30" class="font-mono">
+          hey, I'm Ayush <tspan class="accent-tag">[nondeader]</tspan> 👾
+        </text>
+      </g>
+    </g>
+
+    <!-- Moving / Blinking Cursor tracking typing -->
+    <rect class="cursor-line" x="10" y="10" width="3" height="24" fill="#58a6ff">
+      <animate 
+        attributeName="x" 
+        values="10; 430; 430; 10" 
+        keyTimes="0; 0.28; 0.92; 1" 
+        dur="8s" 
+        repeatCount="indefinite" 
+      />
+    </rect>
+  </g>
+</svg>

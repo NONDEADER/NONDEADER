@@ -1,6 +1,10 @@
 <div align="center">
 
-# hey, I'm Ayush 👋
+<a href="https://github.com/NONDEADER">
+  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header.svg" alt="hey, I'm Ayush [nondeader] 👾" height="38" />
+</a>
+
+<br/>
 
 <a href="https://github.com/NONDEADER">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
