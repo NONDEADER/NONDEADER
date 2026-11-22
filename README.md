@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg" alt="hey, I'm Ayush [nondeader] 👾" height="34" />
+  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg?v=2" alt="hey, I'm Ayush [nondeader] 👾" height="42" />
 </a>
 
 <br/>
@@ -22,10 +22,10 @@ I build small, fast apps that solve my own problems and hopefully don't break yo
 
 ### 🛠 Things I built (and actually use)
 
-- **[UsageX](https://github.com/NONDEADER/UsageX)**  
+- **[UsageX ↗](https://github.com/NONDEADER/UsageX)** `extension`  
   Built this because Claude kept eating my rate limits and I had no clue where my tokens went. Tracks session burn in real time, runs 100% locally in your browser.
 
-- **[AcoustiQ](https://github.com/Clash-Projects/acoustic)**  
+- **[AcoustiQ ↗](https://github.com/Clash-Projects/acoustic)** `flutter · android / desktop`  
   A music player because I wanted my audio offline and streaming without 50 ads or bloated UIs. Clean dark client for Android, Desktop & Linux.
 
 ---
@@ -45,9 +45,9 @@ Building with **[@Clash-Projects](https://github.com/Clash-Projects)** — where
 ---
 
 <div align="center">
-  <sub>
-    Got an idea or want to build something cool?  
-    <a href="mailto:iamayushyadav1664@gmail.com">send an email</a> &nbsp;·&nbsp;
-    <a href="https://github.com/Clash-Projects">clash projects</a>
-  </sub>
+  <samp>
+    <a href="mailto:iamayushyadav1664@gmail.com">email</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Clash-Projects">clash-projects</a> &nbsp;·&nbsp;
+    <a href="https://github.com/NONDEADER?tab=repositories">all repos ↗</a>
+  </samp>
 </div>
