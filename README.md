@@ -1,52 +1,49 @@
 <div align="center">
 
-# NONDEADER
+# hey, I'm Ayush 👋
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=crafting+snappy+client-side+software...;local-first%2C+zero-telemetry%2C+high-agency;audio+engines+%26+developer+utilities;making+software+that+gets+out+of+your+way" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<p>
-  Independent developer building client-side utilities, audio engines, and privacy-respecting tools.
-</p>
+<p><samp>
+I build small, fast apps that solve my own problems and hopefully don't break yours.
+</samp></p>
 
 </div>
 
 ---
 
-### ⌁ Builds
+### 🛠 Things I built (and actually use)
 
 - **[UsageX](https://github.com/NONDEADER/UsageX)**  
-  Real-time session tracker and token burn monitor for Claude.ai. Lightweight, local-first, zero telemetry.  
-  *JavaScript · Browser Extension*
+  Built this because Claude kept eating my rate limits and I had no clue where my tokens went. Tracks session burn in real time, runs 100% locally in your browser.
 
 - **[AcoustiQ](https://github.com/Clash-Projects/acoustic)**  
-  High-fidelity cross-platform music streaming and local audio playback engine with a sleek dark client.  
-  *Flutter · Dart · Linux / Android / Desktop*
+  A music player because I wanted my audio offline and streaming without 50 ads or bloated UIs. Clean dark client for Android, Desktop & Linux.
 
 ---
 
-### ◈ Philosophy & Stack
+### 💻 Stuff I mess with
 
-> *Software should be snappy, private, and respect the user.*
-
-- **Core:** Dart / Flutter, TypeScript, JavaScript, Python, Linux
-- **Focus:** Local-first architectures, low-overhead clients, snappy interfaces
+- **Languages:** Dart, JavaScript, TypeScript, Python, Bash
+- **Playgrounds:** Flutter, Linux, Browser Extensions
+- **Current obsession:** Making apps launch instantly and keeping things simple.
 
 ---
 
-### ✦ Collective
+### 🤝 The Crew
 
-Part of **[@Clash-Projects](https://github.com/Clash-Projects)** — shipping focused tools and media experiments.
+Building with **[@Clash-Projects](https://github.com/Clash-Projects)** — where we make random cool stuff and see what sticks.
 
 ---
 
 <div align="center">
   <sub>
-    <a href="mailto:iamayushyadav1664@gmail.com">email</a> &nbsp;·&nbsp;
-    <a href="https://github.com/NONDEADER">github</a> &nbsp;·&nbsp;
+    Got an idea or want to build something cool?  
+    <a href="mailto:iamayushyadav1664@gmail.com">send an email</a> &nbsp;·&nbsp;
     <a href="https://github.com/Clash-Projects">clash projects</a>
   </sub>
 </div>
