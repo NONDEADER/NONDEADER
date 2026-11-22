@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header.svg" alt="hey, I'm Ayush [nondeader] 👾" height="38" />
+  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header.svg" alt="hey, I'm Ayush [nondeader] 👾" height="34" />
 </a>
 
 <br/>
