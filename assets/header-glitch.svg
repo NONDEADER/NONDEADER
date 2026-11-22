@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 44" width="100%" height="44">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 40" width="100%" height="40">
   <style>
     .font-mono {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-      font-size: 23px;
+      font-size: 25px;
       font-weight: 700;
       fill: #e6edf3;
       letter-spacing: -0.3px;
@@ -38,9 +38,9 @@
     }
   </style>
 
-  <!-- Static, crisp centered text with periodic micro-glitch (Scaled up to 23px) -->
+  <!-- Mobile-optimized tight viewBox, large font (25px) -->
   <g class="glitch-text">
-    <text x="50%" y="30" text-anchor="middle" class="font-mono">
+    <text x="50%" y="28" text-anchor="middle" class="font-mono">
       hey, I'm Ayush <tspan class="accent-tag">[nondeader]</tspan> 👾
     </text>
   </g>

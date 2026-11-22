@@ -1,13 +1,13 @@
 <div align="center">
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg?v=3" alt="hey, I'm Ayush [nondeader] 👾" height="46" />
+  <img src="https://raw.githubusercontent.com/NONDEADER/NONDEADER/main/assets/header-glitch.svg?v=4" alt="hey, I'm Ayush [nondeader] 👾" height="42" />
 </a>
 
 <br/>
 
 <a href="https://github.com/NONDEADER">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1200&color=58A6FF&center=true&vCenter=true&width=580&height=30&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=58A6FF&center=true&vCenter=true&width=450&height=32&lines=building+stuff+because+existing+apps+annoyed+me;writing+code+that+works+(most+of+the+time);probably+staring+at+a+terminal+right+now;turning+caffeine+into+random+commits" alt="Typing SVG" />
 </a>
 
 <br/>
