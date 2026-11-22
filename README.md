@@ -1,67 +1,52 @@
 <div align="center">
 
-<!-- Animated Dynamic Typing Banner with Retro Arcade Pixel Font -->
+# NONDEADER
+
 <a href="https://github.com/NONDEADER">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&height=50&lines=NONDEADER+%3A%3A+SYSTEM+ONLINE;BUILDING+THINGS+THAT+WORK+(MOSTLY);AUTHOR+OF+USAGEX+%26+ACOUSTIQ;LOCAL-FIRST+%2B+CLIENT-SIDE+CRAFT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=crafting+snappy+client-side+software...;local-first%2C+zero-telemetry%2C+high-agency;audio+engines+%26+developer+utilities;making+software+that+gets+out+of+your+way" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Retro Terminal Game Card HUD -->
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  PLAYER      : NONDEADER (Ayush)                                     ║
-║  ROLE        : Systems & Client-Side Crafter                         ║
-║  GUILD       : @Clash-Projects                                       ║
-║  BASE        : Earth                                                 ║
-║  STATUS      : [██████████████████████████] 100% ONLINE              ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<p>
+  Independent developer building client-side utilities, audio engines, and privacy-respecting tools.
+</p>
 
 </div>
 
-<br/>
+---
 
-### ⌁ [CURRENT ARSENAL]
+### ⌁ Builds
 
-```
-[01] UsageX ........................................ Claude.ai Usage & Burn Rate Tracker
-     ├─ Type    : Browser Extension (Local-First, Privacy-Focused)
-     ├─ Engine  : JavaScript / WebExtensions API
-     └─ Link    : https://github.com/NONDEADER/UsageX
+- **[UsageX](https://github.com/NONDEADER/UsageX)**  
+  Real-time session tracker and token burn monitor for Claude.ai. Lightweight, local-first, zero telemetry.  
+  *JavaScript · Browser Extension*
 
-[02] AcoustiQ ..................................... Cross-Platform High-Fidelity Audio
-     ├─ Type    : Audio Engine & Local Music Player
-     ├─ Engine  : Flutter / Dart / Native Audio
-     └─ Link    : https://github.com/Clash-Projects/acoustic
-```
+- **[AcoustiQ](https://github.com/Clash-Projects/acoustic)**  
+  High-fidelity cross-platform music streaming and local audio playback engine with a sleek dark client.  
+  *Flutter · Dart · Linux / Android / Desktop*
 
-<br/>
+---
 
-### ◈ [TECH STACK & INVENTORY]
+### ◈ Philosophy & Stack
 
-```
-CORE LANGS    :: Dart ◈ TypeScript ◈ JavaScript ◈ Python ◈ Bash
-ECOSYSTEM     :: Flutter ◈ Android ◈ Linux ◈ Node.js ◈ WebExtensions
-PHILOSOPHY    :: Zero bloat, responsive clients, snappy local performance
-```
+> *Software should be snappy, private, and respect the user.*
 
-<br/>
+- **Core:** Dart / Flutter, TypeScript, JavaScript, Python, Linux
+- **Focus:** Local-first architectures, low-overhead clients, snappy interfaces
 
-### ✦ [ARCADE MONITOR // STATS]
+---
 
-<div align="center">
-  <img src="https://pixel-profile.vercel.app/api/github-stats?username=NONDEADER&theme=crt&screen_effect=true" alt="Pixel CRT Stats" width="460" />
-</div>
+### ✦ Collective
 
-<br/>
+Part of **[@Clash-Projects](https://github.com/Clash-Projects)** — shipping focused tools and media experiments.
 
 ---
 
 <div align="center">
   <sub>
-    <code>PRESS START</code> &nbsp;•&nbsp;
-    <a href="https://github.com/Clash-Projects"><code>[GUILD: CLASH]</code></a> &nbsp;•&nbsp;
-    <a href="mailto:iamayushyadav1664@gmail.com"><code>[TRANSMIT EMAIL]</code></a>
+    <a href="mailto:iamayushyadav1664@gmail.com">email</a> &nbsp;·&nbsp;
+    <a href="https://github.com/NONDEADER">github</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Clash-Projects">clash projects</a>
   </sub>
 </div>
